@@ -83,7 +83,7 @@ Containment Recommended Practices
 * Strong authorization policies
 * Least privilege
 * User Behavior Analytics
-* Network segmentation (East/West Firewlls)
+* Network segmentation (East/West Firewalls)
 * Review logs and investigate alerts
 
 Corrective Recommended Practices
@@ -94,4 +94,15 @@ Corrective Recommended Practices
 * have logging in place so you can review the data for forensic analysis
 * have tested strategies for disaster recovery
   * 3-2-1 strategy
-* Consider attempting identification and decryption with REPUTABLE free tools  
+* Consider attempting identification and decryption with REPUTABLE free tools
+
+Attend the Agility Conference next month March 16-19, 2020
+f5.com/agility
+
+Encryption is the new normal
+LetsEncrypt has made this very accessible (free ssl certificates good for 180 days with auto-renewal at 90 days)
+
+SSL/TLS Decryption has serious performance impacts on firewalls
+Best-of-breed daisy-chain solutions require multiple decryption/inspection/re-encryption cycles.
+
+F5 SSL Orchestrator presentation (SSL Visibility)
