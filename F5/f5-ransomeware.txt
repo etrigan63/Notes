@@ -1,0 +1,8 @@
+F5 Ransomeware Training
+2020-02-12
+
+risk management in infosec
+
+Lab covers SSL visibiity
+
+download EICAR file securely and then decrypt it in flight
