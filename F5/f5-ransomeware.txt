@@ -55,4 +55,43 @@ Positive News
 * DHS Cyber Hunt and Incident Team Actors
   * DHS will allocate resource to help
 
-  
+The 'Ryuk' ransomware has brought the issue to public eye.
+* Refers to a character from the 'Death Note' manga.
+* Artisanal ransomware, not mass-market
+* Cleans up its install files making it hard to figure out Vectors
+* Establishes persistence in the Windows Registry
+* Deletes backups and volume shadow copies
+
+Preventative Best Practices
+
+Detective Recommended Practices
+* Executive Sponsorship
+* Defense in Depth
+* Zero Trust
+* SSL/TLS Visibility
+* Multiple points of malware scanning with different vendors
+* IDS/IPS
+* Modern WAF - Start with basic policies
+* GPO software restriction policies
+* Review logs and investigate alerts
+
+Containment Recommended Practices
+* Executive Sponsorship
+* Defense in Depth
+* Zero Trust
+* Assume compromise
+* Strong authorization policies
+* Least privilege
+* User Behavior Analytics
+* Network segmentation (East/West Firewlls)
+* Review logs and investigate alerts
+
+Corrective Recommended Practices
+* Executive Sponsorship
+* Have an incident response playbook and TEST IT.
+* Consider engaging law enforcement and professional assistance
+* Have an inventory, documentation and diagrams of systems
+* have logging in place so you can review the data for forensic analysis
+* have tested strategies for disaster recovery
+  * 3-2-1 strategy
+* Consider attempting identification and decryption with REPUTABLE free tools  
