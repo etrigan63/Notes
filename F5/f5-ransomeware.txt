@@ -6,3 +6,53 @@ risk management in infosec
 Lab covers SSL visibiity
 
 download EICAR file securely and then decrypt it in flight
+
+Vectors - social engineering and phising (and whaling)
+* Much easier to hack humans
+* Email attachments and phishing links
+* Training has to be ongoing to be effective
+
+Vectors - Identity attacks
+* Stolen, compromised or weak passwords
+* Multi-factor authentication helps
+* Actors use bots to automate the process
+* Password spraying
+  * What are the most common passwords used
+  * Using harvested e-mail addresses and the common passwords and using a randomized login attempts to prevent brute-force lockouts.
+* Credential Stuffing
+  * Credential re-use
+* RDP is commonly overlooked
+  * MFA is critical for RDP exposed to Internet
+
+Vectors - Web App Vulnerabilities
+* 'Sodinokibi' ransomware exploited critical Oracle WebLogic flaw.
+* Often overlooked
+* Considered too complicated
+* Overestimation of IDS/IPS or NGFW capabilities
+* Defense in Depth and Zero Trust practices are not applied.
+* Gain access, execute malware, then move laterally.
+
+What Actors are not telling you
+* No guarantee ransom payment will get data back
+* They reserve the right to attack again
+* Regardless of payment, data will be ex-filtrated
+
+Motives
+* Financial
+  * Primary reason
+* Political
+  * State actor involvement
+* Competetive
+  * Denial of Service is a common side-effective
+
+Ransomware Supply Chain
+* Attackers used to write their own ransomware
+  * ransomware for sale
+  * ransomware as a Service
+  * ransomware affiliate programs
+
+Positive News
+* DHS Cyber Hunt and Incident Team Actors
+  * DHS will allocate resource to help
+
+  
