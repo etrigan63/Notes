@@ -106,3 +106,8 @@ SSL/TLS Decryption has serious performance impacts on firewalls
 Best-of-breed daisy-chain solutions require multiple decryption/inspection/re-encryption cycles.
 
 F5 SSL Orchestrator presentation (SSL Visibility)
+
+download deck at rebrand.ly/f5ransomwareslides
+
+SSLO LAB
+Setting up SSLO to scan encrypted traffic for viruses!
