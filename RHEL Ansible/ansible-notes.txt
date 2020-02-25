@@ -1,0 +1,36 @@
+Sample Playbook
+
+---
+- name: Apache server installed
+  hosts: web
+  become: yes
+  tasks:
+  - name: latest Apache version installed
+    yum:
+      name: httpd
+      state: latest
+  - name: Apache enabled and running
+    service:
+      name: httpd
+      enabled: true
+      state: started
+  - name: copy index.html
+    copy:
+      src: ~/ansible-files/index.html
+      dest: /var/www/html/
+
+
+Sample Inventory File
+
+[all:vars]
+ansible_user=student2
+ansible_ssh_pass=Ius8g1VmPfRDYQ
+ansible_port=22
+
+[web]
+node1 ansible_host=3.95.198.40
+node2 ansible_host=54.147.60.23
+node3 ansible_host=107.23.17.39
+
+[control]
+ansible ansible_host=54.163.61.59
