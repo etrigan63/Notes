@@ -19,6 +19,12 @@ Sample Playbook
       src: ~/ansible-files/index.html
       dest: /var/www/html/
 
+*************************************************************
+Playbook notes:
+
+* Use sapces, not tabs.
+* Spacing is very important.
+* Use --syntax-check to test playbook before running it.
 
 Sample Inventory File
 
